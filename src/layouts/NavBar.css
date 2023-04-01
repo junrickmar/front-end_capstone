@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 15%;
+}
+
+nav img {
+  height: 78px;
+  width: 248px;
+}
+
+nav .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 10px;
+  list-style: none;
+}
+
+li {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #f4ce14;
+}

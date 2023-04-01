@@ -1,0 +1,14 @@
+.main-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-button {
+  margin-right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: "Karla", sans-serif;
+}
+
+u {
+  color: #f4ce14;
+}

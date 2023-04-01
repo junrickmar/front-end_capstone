@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 15%;
+  margin-top: auto;
+  background-color: #495e57;
+  font-family: "Karla", sans-serif;
+}
+
+footer ul,
+footer nav {
+  flex-direction: column;
+  gap: 0;
+  justify-content: flex-start;
+  padding: 0;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer img {
+  position: absolute;
+  left: 350px;
+  height: 120px;
+  width: 90px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+footer h3 {
+  color: black;
+  font-family: "Markazi Text", serif;
+  font-size: 30px;
+}
